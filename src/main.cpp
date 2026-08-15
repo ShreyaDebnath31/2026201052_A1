@@ -1,5 +1,12 @@
 #include <iostream>
+#include <string>
 using namespace std;
+
+struct Student {
+    int id;
+    string name;
+    string course;
+};
 
 int main() {
     cout << "=== Student Portal ===\n";
