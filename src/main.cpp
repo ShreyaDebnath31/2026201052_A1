@@ -24,7 +24,30 @@ void showStudents() {
     }
 }
 
+void addStudent() {
+    Student s;
+
+    cout << "Enter ID: ";
+    cin >> s.id;
+
+    cin.ignore();
+
+    cout << "Enter name: ";
+    getline(cin, s.name);
+
+    cout << "Enter course: ";
+    getline(cin, s.course);
+
+    students.push_back(s);
+
+    cout << "Student added successfully.\n";
+}
+
 int main() {
+    showStudents();
+    addStudent();
+
+    cout << "\nUpdated student list:\n";
     showStudents();
     return 0;
 }
