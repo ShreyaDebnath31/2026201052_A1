@@ -14,12 +14,17 @@ vector<Student> students = {
     {102, "Ananya", "ECE"}
 };
 
-int main() {
-    cout << "=== Student Portal ===\n";
-    cout << "1. Show Students\n";
-    cout << "2. Add Student\n";
-    cout << "3. Search Student\n";
-    cout << "4. Exit\n";
+void showStudents() {
+    cout << "\n--- Students ---\n";
 
+    for (const Student& s : students) {
+        cout << "ID: " << s.id
+             << " | Name: " << s.name
+             << " | Course: " << s.course << '\n';
+    }
+}
+
+int main() {
+    showStudents();
     return 0;
 }
