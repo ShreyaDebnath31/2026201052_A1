@@ -33,4 +33,32 @@ To work with the project, install the following software:
 \- Git Bash or another terminal
 
 \- A text editor such as Visual Studio Code or Notepad
+## Setup
 
+
+
+Clone the repository using:
+
+
+
+```bash
+
+git clone https://github.com/ShreyaDebnath31/2026201052\_A1.git
+
+Move into the project directory:
+
+cd 2026201052_A1
+
+Check the repository status:
+
+git status
+
+
+Save.
+
+
+Then:
+
+
+```bash
+git add README.md
