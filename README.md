@@ -84,3 +84,25 @@ Save.
 Then:
 
 ```bash
+## Troubleshooting
+
+### Git command is not recognized
+
+Make sure Git is installed and available from Git Bash.
+
+### C++ compiler is not recognized
+
+Make sure a C++ compiler such as g++ is installed and available in the system PATH.
+
+### Repository status shows unexpected files
+
+Run:
+
+```bash
+git status
+Check .gitignore and make sure generated build files are not being tracked.
+Save.
+
+Now:
+
+```bash
