@@ -61,4 +61,13 @@ Then:
 
 
 ```bash
-git add README.md
+
+
+## Build
+
+Compile the C++ source file with:
+
+```bash
+g++ main.cpp -o student-portal
+This creates an executable named student-portal.
+
