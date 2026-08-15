@@ -71,3 +71,16 @@ Compile the C++ source file with:
 g++ main.cpp -o student-portal
 This creates an executable named student-portal.
 
+## Run
+
+After compilation, run the application with:
+
+```bash
+./student-portal
+On Windows Git Bash, the executable can also be started with: ./student-portal.exe
+
+Save.
+
+Then:
+
+```bash
