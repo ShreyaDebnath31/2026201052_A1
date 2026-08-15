@@ -15,7 +15,7 @@ vector<Student> students = {
 };
 
 void showStudents() {
-    cout << "\n--- Students ---\n";
+    // cout << "\n--- Students ---\n";
 
     for (const Student& s : students) {
         cout << "ID: " << s.id
@@ -42,12 +42,58 @@ void addStudent() {
 
     cout << "Student added successfully.\n";
 }
+void searchStudent() {
+    int id;
+
+    cout << "Enter student ID: ";
+    cin >> id;
+
+    for (const Student& s : students) {
+        if (s.id == id) {
+            cout << "Name: " << s.name << '\n';
+            cout << "Course: " << s.course << '\n';
+            return;
+        }
+    }
+
+    cout << "Student not found.\n";
+}
 
 int main() {
-    showStudents();
-    addStudent();
+    int choice;
 
-    cout << "\nUpdated student list:\n";
-    showStudents();
+   
+        cout << "\n=== Student Portal ===\n";
+        cout << "1. Show Students\n";
+        cout << "2. Add Student\n";
+        cout << "3. Search Student\n";
+        cout << "4. Exit\n";
+        cout << "Enter choice: ";
+
+        cin >> choice;
+    
+        if (choice == 1) {
+            addStudent();
+            
+        }
+       
+        else if (choice == 2) {
+            searchStudent();
+        }
+        else if (choice == 3) {
+            cout << "Goodbye!\n";
+            
+        }
+        else if (choice==4) {
+            showStudents();
+        }else{
+            cout<<"invalid choice"<<endl;
+           
+        }
+    
+
+    
+
+  
     return 0;
 }
