@@ -18,3 +18,6 @@ void updateCourse(string &course){
 void showProfileStatus() {
     cout << "Profile status: Active\n";
 }
+void showEmail(string email) {
+    cout << "Email: " << email << '\n';
+}
