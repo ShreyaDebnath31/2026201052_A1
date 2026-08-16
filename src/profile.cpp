@@ -9,3 +9,9 @@ void showProfile(int id,string name, string course) {
     cout << "Course: " << course << '\n';
 }
 
+void updateCourse(string &course){
+    cout<< "Enter new course: ";
+    cin>> course;
+    cout<<"Course update successfully"<<endl;
+}
+
