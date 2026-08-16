@@ -167,3 +167,95 @@ Also check the `.gitignore` file to make sure generated build files and other un
 GitHub Repository:
 
 https://github.com/ShreyaDebnath31/2026201052_A1
+
+## Feature Branches and Their Work
+
+The project was developed using multiple feature branches. Each branch contains its own development history and meaningful commits. Some of these commits are not present in `main` because the corresponding branches were also used to demonstrate separate Git workflows such as branching and conflict resolution.
+
+The following branches contain additional development history:
+
+### `feature/core`
+
+Contains the initial/core student portal development work and the foundational project changes.
+
+To inspect its history:
+
+```bash
+git switch feature/core
+git log --oneline
+```
+
+### `feature/login`
+
+Contains the development of student login functionality, including incremental commits for login-related changes and validation.
+
+To inspect its history:
+
+```bash
+git switch feature/login
+git log --oneline
+```
+
+### `feature/profile`
+
+Contains the development of student profile functionality, including profile information such as email, phone, city, address, and guardian details.
+
+This branch was also used during the merge-conflict exercise with `feature/notifications`. The conflict was manually resolved and the resulting merge was recorded in the Git history.
+
+To inspect its history:
+
+```bash
+git switch feature/profile
+git log --oneline
+```
+
+### `feature/dashboard`
+
+Contains the development of student dashboard functionality, including dashboard-related navigation and functionality.
+
+To inspect its history:
+
+```bash
+git switch feature/dashboard
+git log --oneline
+```
+
+### `feature/settings`
+
+Contains the development of portal settings functionality, including settings-related operations.
+
+To inspect its history:
+
+```bash
+git switch feature/settings
+git log --oneline
+```
+
+### `feature/notifications`
+
+Contains notification-related development and was specifically used to demonstrate branch conflict handling.
+
+Changes from this branch were merged with `feature/profile`, which resulted in a merge conflict in `src/profile.cpp`. The conflict was manually resolved before completing the merge.
+
+To inspect its history:
+
+```bash
+git switch feature/notifications
+git log --oneline
+```
+
+### Viewing the Complete Project History
+
+To view the commits from all branches together, use:
+
+```bash
+git log --graph --oneline --all
+```
+
+This displays the complete Git history, including commits that are present only on individual feature branches and are therefore not visible when viewing the history of `main` alone.
+
+To return to the final integrated branch:
+
+```bash
+git switch main
+```
