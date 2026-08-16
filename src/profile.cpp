@@ -24,3 +24,6 @@ void showEmail(string email) {
 void showPhone(string phone) {
     cout << "Phone: " << phone << '\n';
 }
+void showNotification(string message) {
+    cout << "Notification: " << message << '\n';
+}
