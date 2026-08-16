@@ -28,3 +28,7 @@ void showPhone(string phone) {
 void showAddress(string address) {
     cout << "Address: " << address << '\n';
 }
+
+void showGuardian(string guardian) {
+    cout << "Guardian: " << guardian << '\n';
+}
