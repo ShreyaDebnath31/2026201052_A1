@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 void showDashboard(int totalStudents) {
@@ -10,4 +11,7 @@ void showDashboard(int totalStudents) {
 void showCourseCount(int cseStudents, int eceStudents) {
     cout << "CSE students: " << cseStudents << '\n';
     cout << "ECE students: " << eceStudents << '\n';
+}
+void showWelcomeMessage(string name) {
+    cout << "Welcome, " << name << "!\n";
 }
