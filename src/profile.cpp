@@ -24,8 +24,7 @@ void showEmail(string email) {
 }
 
 void showPhone(string phone) {
-    cout << "Mobile Number
-: " << phone << '\n';
+    cout << "Mobile Number " << phone << '\n';
 }
 
 void showAddress(string address) {
@@ -35,6 +34,14 @@ void showAddress(string address) {
 void showGuardian(string guardian) {
     cout << "Guardian: " << guardian << '\n';
 }
+
 void showCity(string city) {
     cout << "City: " << city << '\n';
 }
+
+void showNotification(string message) {
+    cout << "Notification: " << message << '\n';
+}
+
+
+
