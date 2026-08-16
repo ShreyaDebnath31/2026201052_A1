@@ -27,3 +27,7 @@ void startLogin() {
 
     cout << "Too many failed login attempts.\n";
 }
+
+void logoutUser() {
+    cout << "Student logged out successfully.\n";
+}
