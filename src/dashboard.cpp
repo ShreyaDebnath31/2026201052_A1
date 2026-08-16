@@ -15,3 +15,8 @@ void showCourseCount(int cseStudents, int eceStudents) {
 void showWelcomeMessage(string name) {
     cout << "Welcome, " << name << "!\n";
 }
+void showDashboardHelp() {
+    cout << "\nDashboard options:\n";
+    cout << "1. View student count\n";
+    cout << "2. View course statistics\n";
+}
