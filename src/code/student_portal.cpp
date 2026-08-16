@@ -73,19 +73,21 @@ int main() {
         cin >> choice;
     
         if (choice == 1) {
-            addStudent();
+            showStudents();
             
         }
        
         else if (choice == 2) {
-            searchStudent();
+            addStudent();
+            
         }
         else if (choice == 3) {
-            cout << "Goodbye!\n";
+            searchStudent();
+            
             
         }
         else if (choice==4) {
-            showStudents();
+            cout << "Goodbye!\n";
         }else{
             cout<<"invalid choice"<<endl;
            
