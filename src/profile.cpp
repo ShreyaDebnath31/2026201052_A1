@@ -34,3 +34,6 @@ void showAddress(string address) {
 void showGuardian(string guardian) {
     cout << "Guardian: " << guardian << '\n';
 }
+void showCity(string city) {
+    cout << "City: " << city << '\n';
+}
