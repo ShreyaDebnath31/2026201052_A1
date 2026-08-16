@@ -15,3 +15,6 @@ void updateCourse(string &course){
     cout<<"Course update successfully"<<endl;
 }
 
+void showProfileStatus() {
+    cout << "Profile status: Active\n";
+}
