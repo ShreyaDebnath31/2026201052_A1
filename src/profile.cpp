@@ -24,7 +24,8 @@ void showEmail(string email) {
 }
 
 void showPhone(string phone) {
-    cout << "Phone: " << phone << '\n';
+    cout << "Mobile Number
+: " << phone << '\n';
 }
 
 void showAddress(string address) {
