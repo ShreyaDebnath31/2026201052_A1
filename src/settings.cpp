@@ -17,3 +17,7 @@ void SetNotifications(bool enabled){
 void setDisplayMode(string mode) {
     cout << "Display mode changed to: " << mode << '\n';
 }
+
+void resetSettings() {
+    cout << "Portal settings restored to default.\n";
+}
