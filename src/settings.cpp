@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 void showSettings() {
@@ -11,4 +12,8 @@ void SetNotifications(bool enabled){
     }else{
         cout<<"Notifications disabled"<<endl;
     }
+}
+
+void setDisplayMode(string mode) {
+    cout << "Display mode changed to: " << mode << '\n';
 }
