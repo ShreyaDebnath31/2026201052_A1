@@ -21,3 +21,6 @@ void showProfileStatus() {
 void showEmail(string email) {
     cout << "Email: " << email << '\n';
 }
+void showPhone(string phone) {
+    cout << "Phone: " << phone << '\n';
+}
