@@ -22,7 +22,7 @@ void showEmail(string email) {
     cout << "Email: " << email << '\n';
 }
 void showPhone(string phone) {
-    cout << "Phone: " << phone << '\n';
+    cout << "Contact Phone: " << phone << '\n';
 }
 void showNotification(string message) {
     cout << "Notification: " << message << '\n';
