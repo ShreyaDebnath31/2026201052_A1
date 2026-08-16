@@ -29,5 +29,10 @@ void startLogin() {
 }
 
 void logoutUser() {
-    cout << "Student logged out successfully.\n";
+    cout << "Student logged out succesfully.\n";
+
+}
+
+void welcome(){
+    cout<<"Welcome to student portal"<<endl;
 }
